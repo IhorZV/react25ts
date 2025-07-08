@@ -1,11 +1,11 @@
 import React from 'react';
 
-const App = () => {
+const UsersPage = () => {
     return (
         <div>
-          App
+            UsersPage
         </div>
     );
 };
 
-export {App};
+export {UsersPage};
