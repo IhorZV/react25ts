@@ -1,9 +1,13 @@
 import React from 'react';
 
+import {Users} from "../components";
+import {Outlet} from "react-router-dom";
+
 const UsersPage = () => {
     return (
         <div>
-            UsersPage
+            <Users/>
+            <Outlet/>
         </div>
     );
 };
